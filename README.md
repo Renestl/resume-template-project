@@ -5,3 +5,6 @@ My resume template clone for the P1xt guide - https://github.com/P1xt/p1xt-guide
 Project - Clone this online resume template: https://creativemarket.com/ikonome/686585-Material-Resume-Blue/screenshots/#screenshot1
 
 Online version: 
+
+Attributes:
+All images are public domain.
