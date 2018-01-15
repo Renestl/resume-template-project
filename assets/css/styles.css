@@ -20,3 +20,33 @@ img {
 	max-width: 100px;
 	border-radius: 50%;
 }
+
+.container {
+	width: 100vw;
+	overflow: hidden;
+}
+
+.ui.menu.secondary.pointing {
+	background-color: #003546;
+	margin: 0;
+	display: flex;
+	justify-content: center;
+	list-style: none;
+}
+
+.ui.menu.secondary.pointing .active.item, .ui.menu.secondary.pointing .item {
+  color: #f5f5f5;
+	text-transform: uppercase; 
+}
+
+.ui.menu.secondary.pointing .active.item {
+	border-color: #f5f5f5; 
+}
+
+.ui.secondary.pointing.menu .active.item:hover {
+	color: #0094C6; 
+}
+
+.ui.secondary.pointing.menu a.item:hover {
+	color: #0094C6; 
+}
