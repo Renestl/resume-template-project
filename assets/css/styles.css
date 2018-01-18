@@ -1,3 +1,13 @@
+/* 
+$main: #005E7C;
+$secondary: #003546;
+$accent: #51626D;
+$colorDarkBackground: #f5f5f5;
+$workMain: #DEE9EF;
+$hobbies: #0094C6; 
+aside: #EEEFEF
+*/
+
 body {
 	font-size: 100%;
 }
@@ -144,6 +154,7 @@ header img {
 		padding: 5%;
 	}
 }
+
 
 /* SOCIAL MEDIA */
 
