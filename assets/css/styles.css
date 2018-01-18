@@ -126,7 +126,7 @@ header img {
 	#intro {
 		padding: 4%;
 	}
-	}
+}
 
 /* MAIN */
 
@@ -156,6 +156,9 @@ header img {
 }
 
 @media all and (min-width: 700px) {
+	.main {
+		display: flex;
+	}
 	.additionalInfo {
 		padding: 5% 2%;
 		min-width: 30%;
