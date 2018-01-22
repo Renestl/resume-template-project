@@ -161,6 +161,7 @@ aside h4, aside p {
 	padding-bottom: 20px;
 }
 
+/* PERSONAL INFO TABLE */
 .paLabel {
 	font-weight: bolder;
 }
@@ -176,6 +177,8 @@ aside h4, aside p {
 #personalTbl td:nth-last-child(odd) {
 	padding-left: 20px;
 }
+
+/* SOFTWARE INFO TABLE */
 
 #softwareTbl td:nth-child(n) {
 	padding: 3% 0%;
@@ -202,6 +205,26 @@ aside h4, aside p {
 .angular td:nth-child(2n+2) {
 	box-shadow: inset -70px 0px 0px 0px rgba(81,98,109,1);
 } 
+
+/* HOBBIES */
+
+.hobbyIcons {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.hobbyIcons li {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-bottom: 2.5%;
+	width: 33%;
+}
+
+.hobbyIcons span {
+	font-weight: bold; 
+}
 
 @media all and (min-width: 700px) {
 	.main {
