@@ -119,6 +119,8 @@ header img {
 	margin-top: 6px;
 	padding: 7%;
 	overflow: hidden;
+	-webkit-box-shadow: 0px 5px 5px 3px rgba(0, 0, 0, 0.75);
+	-moz-box-shadow: 0px 5px 5px 3px rgba(0, 0, 0, 0.75);
 	box-shadow: 0px 5px 5px 3px rgba(0, 0, 0, 0.75);
 }
 
@@ -158,6 +160,48 @@ aside h4, aside p {
 	border-bottom: 1px solid #51626D;
 	padding-bottom: 20px;
 }
+
+.paLabel {
+	font-weight: bolder;
+}
+
+#personalTbl tr {
+	border-bottom: 1px solid rgb(153, 165, 173); 
+}
+
+#personalTbl td {
+	padding: 3% 0%;
+}
+
+#personalTbl td:nth-last-child(odd) {
+	padding-left: 20px;
+}
+
+#softwareTbl td:nth-child(n) {
+	padding: 3% 0%;
+}
+#softwareTbl td:nth-child(2n+2) {
+	height: 15px;
+	width: 150px;
+	background: #003546;
+	border: 20px solid #fff;
+}
+
+.html5 td:nth-child(2n+2) {
+	box-shadow: inset -10px 0px 0px 0px rgba(81,98,109,1);
+} 
+.css3 td:nth-child(2n+2) {
+	box-shadow: inset -28px 0px 0px 0px rgba(81,98,109,1);
+} 
+.javascript td:nth-child(2n+2) {
+	box-shadow: inset -40px 0px 0px 0px rgba(81,98,109,1);
+} 
+.mongodb td:nth-child(2n+2) {
+	box-shadow: inset -58px 0px 0px 0px rgba(81,98,109,1);
+} 
+.angular td:nth-child(2n+2) {
+	box-shadow: inset -70px 0px 0px 0px rgba(81,98,109,1);
+} 
 
 @media all and (min-width: 700px) {
 	.main {
