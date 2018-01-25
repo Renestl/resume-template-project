@@ -288,6 +288,66 @@ aside h4, aside p {
 	box-shadow: 0 0 20px 12px #005E7C, 0 0 0 12px #003546; 
 }
 
+.skillset {
+	height: 120px;
+	width: 120px;
+	position: relative;
+	margin: 10px;
+}
+
+.skillProgress {
+	height: 120px;
+	width: 120px;
+	/* clip: rect(0, 120px, 120px, 0px); */
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.halfCircle {
+	height: 120px;
+	width: 120px;
+	border: 10px solid #003546;
+	border-radius: 50%;
+	clip: rect(0, 60px, 120px, 0);
+	top: 0;
+	left: 0;
+	position: absolute;
+}
+
+.label {
+	border-radius: 50%;
+	display: block;
+	position: absolute;
+	text-align: center;
+	background: none;
+}
+
+.shadow {
+	height: 120px;
+	width: 120px;
+	border: 10px solid #99a5ad;
+	border-radius: 50%;
+}
+
+.progress-100 .rightSide {
+	transform: rotate(-180deg);
+	}
+.progress-90 .rightSide {
+transform: rotate(-152deg);
+}
+.progress-78 .rightSide {
+	transform: rotate(-120deg);
+}
+.progress-69 .rightSide {
+	transform: rotate(-52deg);
+}
+.progress-57 .rightSide {
+	transform: rotate(-25deg);
+	}
+
+
+
 @media all and (min-width: 700px) {
 	.workItem, .eduItem {
 		flex-flow: row wrap;
