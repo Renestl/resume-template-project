@@ -354,8 +354,6 @@ transform: rotate(-152deg);
 	transform: rotate(-25deg);
 	}
 
-
-
 @media all and (min-width: 700px) {
 	.workItem, .eduItem {
 		flex-flow: row wrap;
@@ -366,6 +364,42 @@ transform: rotate(-152deg);
 	}
 	.skills {
 		flex-wrap: nowrap;
+	}
+}
+
+/* PORTFOLIO */
+
+.project a {
+	font-weight: bold;
+}
+
+.project img {
+	max-width: 80vw;
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+
+@media all and (min-width: 700px) {
+	.portfolio {
+		padding: 0;
+	}
+	.project {
+		display: flex;
+		justify-content: flex-start;
+	}
+	.project div {
+		width: 40%;
+		padding: 5%;
+		box-shadow: 7px 0px 10px 0px rgba(236, 232, 232, 0.749);
+	}
+	.project img {
+		max-width: 60%;
+		margin-top: 0;
+		margin-bottom: 0;
+		max-height: 350px;
+	}
+	.reverse {
+		flex-direction: row-reverse;
 	}
 }
 
